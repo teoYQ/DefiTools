@@ -39,12 +39,12 @@ async function Harvest(id){
             }
 
         ) 
-        console.log(`withdraw status: ${withdrawTx.status}`)
+        console.log(`Harvest status: ${withdrawTx.status}`)
         //console.log(`Withdrew ${web3.utils.fromWei(curBal.toString(),'ether')}`)
 
     }
     catch (err){
-        console.log(`Withdraw Ball error ${err.message}`)
+        console.log(`Harvest error ${err.message}`)
     }
 }
 
